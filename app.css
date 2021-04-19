@@ -151,13 +151,6 @@ nav {
     margin: calc(40%/12);
 }
 
-@media (max-width: 768px) {
-    #skills-img img {
-        width: 20%;
-        margin: calc(80%/12);
-    }
-}
-
 .contact-div {
     position: relative;
     padding-bottom: 350px;
@@ -207,4 +200,20 @@ nav {
     top: 10%;
     left: 15%;
     background-color: #f0ded1;
+}
+
+@media (max-width: 768px) {
+    .about-div {
+        position: relative;
+        padding-bottom: 650px;
+    }
+    
+    #skills-img img {
+        width: 20%;
+        margin: calc(80%/12);
+    }
+
+    .contact-div .contact {
+        width: 70%;
+    }
 }
