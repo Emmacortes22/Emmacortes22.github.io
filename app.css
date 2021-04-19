@@ -1,0 +1,210 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #454447;
+}
+
+header {
+    background-color: #f0ded1;
+}
+
+header h1 {
+    color: #454447;
+    letter-spacing: 0.1em;
+    font-size: 2.5em;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-style: normal;
+}
+
+nav {
+    background: transparent;
+}
+
+.btn-light:hover {
+    border-color: #457087;
+    background-color: #457087;
+}
+
+.header-1 {
+    background-color: whitesmoke;
+}
+
+.btn-outline-info {
+    border-color: #457087;
+    color: #457087;
+}
+
+.btn-outline-info:hover, .btn-outline-info:active, .btn-outline-info:focus {
+    border-color: #457087;
+    background-color: #457087;
+    color: white;
+}
+
+#img-cover {
+    width: 100%;
+    border-radius: 45% 0% 0% 45%;
+}
+
+.about-div {
+    position: relative;
+    padding-bottom: 450px;
+}
+
+.about-div .child-div1 {
+    width: 10%;
+    height: 70%;
+    position: absolute;
+    bottom: 35%;
+    background-color:#6b6b6b;
+    opacity: 0.8;
+}
+
+.about-div .child-div1 h2 {
+    color: whitesmoke;
+    letter-spacing: 0.1em;
+    font-size: 3em;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-style: normal;
+    transform:  translateX(0%) translateY(200%) rotate(-90deg);
+    
+}
+
+.about-div .presentation {
+    width: 70%;
+    color: #454447;
+    line-height: 1.8;
+    letter-spacing: 0.07em;
+    font-size: 16px;
+    text-align: justify;
+    font-style: normal;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+.about-div .child-div2 {
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    background-color: whitesmoke;
+}
+
+#title-education {
+    color: #454447;
+    letter-spacing: 0.1em;
+    font-size: 3em;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+.div-education1 {
+    height: 17rem;
+    border-radius: 15px;
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(img/education_1.png);
+    background-size: cover;
+    opacity: 0.75;
+    font-weight: bold;
+    color: black;
+}
+
+.div-education2 {
+    height: 17rem;
+    border-radius: 15px;
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(img/education_2.png);
+    background-size: cover;
+    opacity: 0.75;
+    font-weight: bold;
+    color: black;
+}
+
+.div-education1 h4, .div-education2 h4 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.div-education1 ul, .div-education2 ul {
+    list-style-type: none;
+}
+
+#title-skills {
+    color: #454447;
+    letter-spacing: 0.1em;
+    font-size: 3em;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+#skills-img img {
+    width: 10%;
+    margin: calc(40%/12);
+}
+
+@media (max-width: 768px) {
+    #skills-img img {
+        width: 20%;
+        margin: calc(80%/12);
+    }
+}
+
+.contact-div {
+    position: relative;
+    padding-bottom: 350px;
+}
+
+.contact-div .child-div1 {
+    width: 10%;
+    height: 70%;
+    position: absolute;
+    bottom: 35%;
+    background-color:#6b6b6b;
+    opacity: 0.8;
+}
+
+.contact-div .child-div1 h2 {
+    color: whitesmoke;
+    letter-spacing: 0.1em;
+    font-size: 3em;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-style: normal;
+    transform:  translateX(0%) translateY(250%) rotate(-90deg);
+    
+}
+
+.contact-div .contact {
+    width: 50%;
+    background-color: whitesmoke;
+    color: #454447;
+    line-height: 1.8;
+    letter-spacing: 0.07em;
+    font-size: 16px;
+    text-align: justify;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.contact-div .contact span { 
+    font-weight: bold;
+}    
+
+.contact-div .child-div2 {
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    background-color: #f0ded1;
+}
